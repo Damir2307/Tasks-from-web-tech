@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="t1.css">
+	<script src="j1.js" defer></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="bas">
+		<div id="logo">
+			<img src="logo.png" style="width: 110px">
+		</div>
+		<div id="input">
+			<input type="text" placeholder="Search e.g. live instagram channel" style="width: 270px;">
+		</div>
+		<div id="bell">
+			<img src="2.png" style="width: 20px;">
+		</div>
+		<div id="jon">
+			<img src="jon.jpeg" style="width: 40px;">
+		</div>
+	</div>
+	<div id="ortasi">
+		<div id="left">
+			<div id="home">
+				<img src="home.png" style="width: 25px; height: 25px; ">
+			</div>
+		</div>
+		<div id="right">
+
+			<div id="bir">
+				<div><a href="#" style="color:#A29F9F;font-size: 10px; text-decoration:none;"><img src="arr.png" style="width: 10px;padding-right: 5px;">Back</a></div>
+				<div id="bireki" style="color:#A29F9F;font-size: 10px;">
+						 Home / Admin / <b>User Managements</b>
+				</div>
+			</div>
+			<div id="e">
+			<div id="eki">
+				<div id="ekibir">
+					Users
+				</div>
+				<div id="ekieki">
+					Reports
+				</div>
+				<div id="ekiuw">
+					Requests
+				</div>
+				<div id="ekitort">
+					Disabled Users
+				</div>
+				<div id="ekibes">
+					<img src="more.png" style="width: 20px;">
+				</div>
+			</div>
+			</div>
+			<div id="uw">
+				<div id="uwbir">Dashboard Users</div>
+				<a href="#" onclick="kkk()"><img src="ff.png" style="width: 20px; padding-right: 10px;
+				padding-left: 10px;">Add User</a>
+			</div>
+			<div id="tort">
+				<div>
+					Account Status
+				</div>
+				<div>
+					User Name
+				</div>
+				<div>
+					Email
+				</div>
+				<div>
+					Account type
+				</div>
+				<div>
+					Phone
+				</div>
+				<div>
+					Mode
+				</div>
+				<div>
+					Actions
+				</div>
+			</div>
+			<div id="dd"  style="width: 1200px;height: 50px;;margin-left: 50px;"><img src="">
+
+
+			</div>
+		</div>
+	</div>
+	<div id=modal2>
+	<div id="edituser">
+		<div style="display: flex;flex-direction: column;justify-content: center;margin-left: 50px;margin-left: 50px;margin-top: 100px;">
+		<div style="font-size: 20px;text-align:left;color: #8E8E8E;">Edit User:<p style="font-size: 13px;"></p></div>
+	
+		<input style="margin-bottom: 20px;margin-top: 20px;width: 300px;height: 20px;" type="text" placeholder="Name" id="Name" value="">
+		<input style="margin-bottom: 20px;width: 300px;height: 20px;" type="text" placeholder="Email" id="Email">
+		<input style="margin-bottom: 20px;width: 300px;height: 20px;" type="text" placeholder="Phone" id="Phone">
+
+		<div  style="margin-bottom: 20px;width: 300px;height: 20px">
+			<select style="width:100%;height: 100%;" id="image">
+     		<option value="Admin">Admin</option>
+      		<option value="Master">Master Admin</option>
+      		<option value="User">User</option>
+    		</select>
+    		</div>
+
+		<input style="margin-bottom: 20px;width: 300px;height: 20px;" type="text" placeholder="Mode" id="Mode">
+
+
+		<div style="display: flex;flex-direction:row;margin-top: 40px;">	
+		<div style="font-size: 12px;text-align: center; position: fixed;left: 950px;bottom: 100px;"><input type="Checkbox" id="C" Value=""><div style="margin-top: -18px;margin-left: 65px;font-family: 'Raleway', sans-serif;">set activ</div></div>
+		<a href="#" id="ras" style="display:flex;align-items: center; justify-content:center;text-decoration: none; color:white;width: 100px;height: 30px;background-color: blue;border-radius: 3px;font-size: 80%;margin-left: 210px;" onclick="add(),r()">Edit user</a>
+	</div>
+	</div>
+
+	</div>
+	</div>
+	<div id=modal>
+	<div id="adduser">
+		<div style="display: flex;flex-direction: column;justify-content: center;margin-left: 50px;margin-left: 50px;margin-top: 100px;">
+		<div style="font-size: 20px;text-align:left;color: #8E8E8E;">Add new user:<p style="font-size: 13px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum h;as been the industry's standard dummy.</p></div>
+	
+		<input style="margin-bottom: 20px;margin-top: 20px;width: 300px;height: 20px;" type="text" placeholder="Name" id="Name" value="">
+		<input style="margin-bottom: 20px;width: 300px;height: 20px;" type="text" placeholder="Email" id="Email">
+		<input style="margin-bottom: 20px;width: 300px;height: 20px;" type="text" placeholder="Phone" id="Phone">
+
+		<div  style="margin-bottom: 20px;width: 300px;height: 20px">
+			<select style="width:100%;height: 100%;" id="image">
+     		<option value="Admin">Admin</option>
+      		<option value="Master">Master Admin</option>
+      		<option value="User">User</option>
+    		</select>
+    		</div>
+
+		<input style="margin-bottom: 20px;width: 300px;height: 20px;" type="text" placeholder="Mode" id="Mode">
+
+
+		<div style="display: flex;flex-direction:row;margin-top: 40px;">	
+		<div style="font-size: 12px;text-align: center; position: fixed;left: 950px;bottom: 100px;"><input type="Checkbox" id="C" Value=""><div style="margin-top: -18px;margin-left: 65px;font-family: 'Raleway', sans-serif;">set activ</div></div>
+		<a href="#" id="ras" style="display:flex;align-items: center; justify-content:center;text-decoration: none; color:white;width: 100px;height: 30px;background-color: blue;border-radius: 3px;font-size: 80%;margin-left: 210px;" onclick="add(),r()">Add new user</a>
+	</div>
+	</div>
+
+	</div>
+	</div>
+	<div id='udali'>
+	<div id='udali2' value='' style="text-align:center;">Do you want delete?
+
+<div id='fd' style="display: flex;flex-direction: row;justify-content: space-around;align-items: center;padding-top: 100px;">
+		<div id="da">Yes</div><div id="net">No</div>
+
+</div>
+
+
+			</div>
+</div>
+</body>
+</html>

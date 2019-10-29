@@ -1,0 +1,216 @@
+body{
+	margin: 0px;
+}
+#edituser{
+	display: none;
+	z-index: 1;
+	background-color: white;
+    text-align: center;
+    padding: 19px;
+    position: fixed;
+    right: 0px;
+    top: 51px;
+    height: 94vh;
+    width: 30%;
+    cursor: pointer; 
+}
+#udali{
+	 position: fixed;
+	  display: none;
+	  width: 100%;
+	  height: 100%;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  background-color: rgba(0,0,0,0.5);
+	  cursor: pointer;
+	}
+	#udali2{
+	display:fixed;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	right:600px;
+	top: 200px;
+	bottom: 200px;
+	box-shadow:0px 0px 0.4px #888888;	
+}
+#bas{
+	display: flex;
+	height: 50px;
+	-webkit-box-shadow: -1px 12px 10px -6px rgba(230,227,230,1);
+	-moz-box-shadow: -1px 12px 10px -6px rgba(230,227,230,1);
+	box-shadow: -1px 12px 10px -6px rgba(230,227,230,1);
+}
+#logo{
+	padding-right: 750px;
+	padding-top: 7px;
+}
+#input{
+	padding-top: 14px;
+	padding-right: 70px;
+}
+#input input{
+	background-image: url("search.png");
+	background-repeat: no-repeat;
+	background-size: 15px;
+	text-align: center;
+	background-position: left;
+	height: 20px;
+	border: 1px solid rgb(227, 227, 227);
+	border-radius: 5px;
+
+}
+#bell{
+	padding-left: 30px;
+	padding-right: 30px;
+	border-left:1px solid rgb(227, 227, 227) ;
+	border-right:1px solid rgb(227, 227, 227);
+	padding-top: 14px;
+}
+#jon{
+	padding-left: 10px;
+	padding-top: 6px;
+}
+#jon img{
+	border-radius: 40px;
+}
+#ortasi{
+	display: flex;
+}
+#left{
+	height: 92vh;
+	width: 5%;
+	border-right:1px solid rgb(227, 227, 227);
+}
+#home{
+	border-right: 3px solid #8954BA;
+	display: flex;
+	justify-content: center;
+	height: 40px;
+	align-items: center;
+	margin-top: 120px;
+}
+#bir{
+	display: flex;
+	align-items: center;
+	padding-top: 15px;
+	padding-left: 30px;
+	font-family: 'Raleway', sans-serif;
+}
+#bireki{
+	padding-top: 1px;
+	padding-left: 23px;
+}
+#e{
+	border-bottom: 1px solid rgb(227, 227, 227);
+	font-family: 'Raleway', sans-serif;
+}
+#eki{
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+
+}
+#right{
+	width: 100%;
+	font-size: 13px;
+
+}
+#ekieki{
+	width: 90px;
+	text-align: center;
+}
+#ekiuw{
+	width: 90px;
+	text-align: center;
+}
+#ekitort{
+	width: 90px;
+	text-align: center;
+}
+#ekibes{
+	width: 90px;
+	padding-bottom: 2px;
+}
+#ekibir{
+	border-bottom: 3px solid #8954BA;
+	color: #8954BA;
+	width: 90px;
+	text-align: center;
+}
+#uw{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 43px;
+}
+#uw a{
+	display: flex;
+	background-color: #5D38DB;
+	width: 100px;
+	height: 40px;
+	color: white;
+	text-decoration:none;
+	align-items: center;
+	border-radius: 3px;
+	margin-right: 30px;
+
+}
+#uwbir{
+	color: #686868;
+	margin-left: 25px;
+	font-size: 17px;
+
+}
+
+#tort div{
+	margin-top: 3px;
+	padding-right: 132px;
+}
+#tort{
+	display: flex;
+	margin-left: 65px;
+	font-size: 12px;
+	margin-top: 30px;
+	border-bottom: 1px solid rgb(227, 227, 227);
+	padding-bottom: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#adduser{
+	display: none;
+	z-index: 1;
+	background-color: white;
+    text-align: center;
+    padding: 19px;
+    position: fixed;
+    right: 0px;
+    top: 51px;
+    height: 94vh;
+    width: 30%;
+    cursor: pointer;
+
+}
+#modal{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 50px;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0,0.8);
+}
+#modal2{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 50px;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0,0.8);
+}
